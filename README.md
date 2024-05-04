@@ -1,6 +1,6 @@
 # Portfolio of Practical Works - Bootcamp at EducationIT
 
-This repository contains a collection of practical works completed during my participation in the bootcamp at [EducationIT](https://www.educationit.com/).
+This repository contains a collection of practical works completed during my participation in the bootcamp at [EducationIT]([https://www.educationit.com/](https://www.educacionit.com/bootcamp-full-stack?gclid=CjwKCAjw4ZWkBhA4EiwAVJXwqbBGZK3J-TJAFzESuiTV8w8Y3CfLYsfOcBcECPF6ccZkvdrsa5OS6xoC09YQAvD_BwE)).
 
 ## About the Bootcamp
 
@@ -26,4 +26,4 @@ Hello! I'm Valentin Tarnovsky, a recent graduate of the bootcamp at EducationIT.
 
 ## Title Obtained
 
-I have successfully completed the bootcamp at EducationIT and have obtained my title of Full Stack Engineer. You can verify my certification at the following link: [Full Stack Engineer Certification]([URL_of_Certification](https://drive.google.com/file/d/1We4GpI89L2ZohArCnggVrG-T7JaChFXG/view)).
+I have successfully completed the bootcamp at EducationIT and have obtained my title of Full Stack Engineer. You can verify my certification at the following link: ([Full Stack Engineer Certification](https://drive.google.com/file/d/1We4GpI89L2ZohArCnggVrG-T7JaChFXG/view)).
