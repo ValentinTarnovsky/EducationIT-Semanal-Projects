@@ -1,6 +1,6 @@
 # Portfolio of Practical Works - Bootcamp at EducationIT
 
-This repository contains a collection of practical works completed during my participation in the bootcamp at [EducationIT]([https://www.educationit.com/](https://www.educacionit.com/bootcamp-full-stack?gclid=CjwKCAjw4ZWkBhA4EiwAVJXwqbBGZK3J-TJAFzESuiTV8w8Y3CfLYsfOcBcECPF6ccZkvdrsa5OS6xoC09YQAvD_BwE)).
+This repository contains a collection of practical works completed during my participation in the bootcamp at ([EducationIT](https://www.educacionit.com/bootcamp-full-stack?gclid=CjwKCAjw4ZWkBhA4EiwAVJXwqbBGZK3J-TJAFzESuiTV8w8Y3CfLYsfOcBcECPF6ccZkvdrsa5OS6xoC09YQAvD_BwE)).
 
 ## About the Bootcamp
 
