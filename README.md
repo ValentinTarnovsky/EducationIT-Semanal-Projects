@@ -26,4 +26,4 @@ Hello! I'm Valentin Tarnovsky, a recent graduate of the bootcamp at EducationIT.
 
 ## Title Obtained
 
-I have successfully completed the bootcamp at EducationIT and have obtained my title of Full Stack Engineer. You can verify my certification at the following link: ([Full Stack Engineer Certification](https://drive.google.com/file/d/1We4GpI89L2ZohArCnggVrG-T7JaChFXG/view)).
+I have successfully completed the bootcamp at EducationIT and have obtained my title of Full Stack Engineer. You can verify my certification at the following link: [Full Stack Engineer Certification](https://drive.google.com/file/d/1We4GpI89L2ZohArCnggVrG-T7JaChFXG/view).
