@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Yesteryear&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #e8d1b0;
+}
+
+header {
+    text-align: center;
+}
+
+h1 {
+    font-size: 3em;
+    font-family: 'Yesteryear', cursive;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+    text-decoration: underline double;
+}
+
+main {
+    width: 30rem;
+    margin: auto;
+    margin-bottom: 3em;
+    padding: 2em;
+    border-left: 12px double black;
+    border-right: 12px double black;
+    border-bottom: 12px double black;
+    border-top: 12px double #e8d1b0;
+}
+
+fieldset {
+    background-color: #b9965a;
+    border: none;
+    border-radius: 5px/5px;
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.5);
+    padding: 1em;
+    margin-bottom: 3em;
+    text-align: left;
+    transition: transform 0.5s;
+}
+
+fieldset:focus-within {
+    transform: scale(1.08);
+}
+
+legend {
+    background-color: #b9965a;
+    border-radius: 5px/5px;
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    font-family: 'Yesteryear', cursive;
+    font-size: 1.5em;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+select,
+textarea {
+    display: block;
+    border: 1px solid black;
+    margin-top: 1em;
+    width: 60%;
+    height: 2em;
+    font-size: 1em;
+    padding-left: 0.5em;
+    border-radius: 2px;
+}
+
+label {
+    font-weight: bold;
+}
+
+#descripcion {
+    resize: none;
+    height: 8em;
+}
+
+input[type="submit"],
+input[type="reset"] {
+    display: block;
+    width: 60%;
+    height: 2em;
+    margin: 1em auto;
+    padding: 0.5em 1em;
+    border: 1px solid #b9965a;
+    background-color: #e8d1b0;
+    color: #b9965a;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+    background-color: #b9965a;
+    color: #e8d1b0;
+}
+
+.circles {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1em;
+}

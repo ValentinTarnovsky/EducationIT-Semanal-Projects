@@ -1,0 +1,42 @@
+.btn-card--add,
+.btn-card--remove {
+    padding: 0 1rem;
+    background-color: transparent;
+    border: 1px solid;
+    border-radius: 2px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+.btn-card--add {
+    color: rgb(0, 150, 0);
+
+    &:hover {
+        background-color: rgba(0, 255, 0, 0.4);
+        color: rgb(0, 180, 0);
+    }
+}
+
+.btn-card--remove {
+    color: rgb(150, 0, 0);
+
+    &:hover {
+        background-color: rgba(255, 0, 0, 0.4);
+        color: rgb(150, 0, 0);
+    }
+}
+
+.submit {
+    padding: 0.5rem 3rem;
+    border: 3px inset rgb(0, 255, 21);
+    color: rgb(0, 255, 21);
+    font-size: 1.5rem;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    &:hover {
+        border-style: outset;
+        box-shadow: 1px 1px 4px var(--shadow-color);
+    }
+    @media screen and (max-width: 992px) {
+        width: 100%;
+    }
+}

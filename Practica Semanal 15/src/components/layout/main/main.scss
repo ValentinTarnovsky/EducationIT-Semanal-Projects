@@ -1,0 +1,69 @@
+.main {
+    grid-area: main;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+
+    &__display {
+        margin-top: 6rem;
+    }
+
+    &__alert {
+        margin: 0.5rem 0 2rem;
+        position: fixed;
+        top: 9rem;
+    }
+
+    &__display {
+        width: 90%;
+        max-width: 600px;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: center;
+        text-shadow: 2px 2px 3px lightslategrey;
+
+        &--loading {
+            margin-top: 16.5rem;
+        }
+        &__title {
+            font-size: 4rem;
+        }
+        &__temp {
+            font-size: 12rem;
+            span {
+                font-size: 2rem;
+                position: absolute;
+                top: 21rem;
+            }
+        }
+        @media screen and (max-width: 768px) {
+            &__title {
+                font-size: 3rem;
+            }
+            &__temp {
+                font-size: 10rem;
+                span {
+                    font-size: 1.5rem;
+                    position: absolute;
+                    top: 19.5rem;
+                }
+            }
+        }
+        @media screen and (max-width: 490px) {
+            &__title {
+                font-size: 2rem;
+            }
+            &__temp {
+                font-size: 7rem;
+                span {
+                    font-size: 1.25rem;
+                    position: absolute;
+                    top: 18rem;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="es-AR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Manuel Tarnovsky" />
+    <meta name="description" content="Practica Semanal 8" />
+    <link rel="stylesheet" href="./css/estilos.css" id="style-default">
+    <link rel="stylesheet" href="./css/estilos-retro.css" id="style-retro" disabled>
+    <link rel="stylesheet" href="./css/estilos-futuro.css" id="style-futuro" disabled>
+
+
+    <title>Practica Semanal 8</title>
+</head>
+
+<body>
+    <header>
+        <h1>Vení al Gym! 💪🏽</h1>
+    </header>
+
+    <main>
+        <form action="#">
+            <fieldset>
+                <legend>🙋‍♂️ Datos Personales 👀</legend>
+                <label for="nombre">Nombre:*</label>
+                <input type="text" name="nombre" id="nombre" required autofocus>
+                <br>
+                <label for="apellido">Apellido:*</label>
+                <input type="text" name="apellido" id="apellido" required>
+                <br>
+                <label for="documento">Documento:*</label>
+                <input type="number" name="documento" id="documento" required>
+                <br>
+                <label for="nacionalidad">Nacionalidad:*</label>
+                <select name="nacionalidad" id="nacionalidad" required>
+                    <option value="" disabled selected>- Seleccionar -</option>
+                    <option value="ar">Argentina</option>
+                    <option value="br">Brasileña</option>
+                    <option value="ur">Uruguaya</option>
+                    <option value="xx">Otra</option>
+                </select>
+                <br>
+                <label for="descripcion">Contanos un poco de vos...</label>
+                <textarea name="descripcion" id="descripcion"></textarea>
+                <br>
+                <label for="sexo">Sexo:*</label>
+                <br>
+                <input type="radio" name="sexo" id="femenino" required checked><label for="femenino">Femenino</label>
+                <input type="radio" name="sexo" id="masculino"><label for="masculino">Masculino</label>
+                <input type="radio" name="sexo" id="otro"><label for="otro">Otro</label>
+            </fieldset>
+            <div class="circles">
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+            </div>
+            <fieldset>
+                <legend>📱 Datos de Contacto 📧</legend>
+                <label for="telefono">Teléfono:</label>
+                <input type="number" name="telefono" id="telefono" placeholder="Código de área y número">
+                <br>
+                <label for="email">Dirección de correo electrónico:*</label>
+                <input type="email" name="email" id="email" placeholder="Ej: mail@gmail.com" required>
+            </fieldset>
+            <div class="circles">
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+            </div>
+            <fieldset>
+                <legend>🚴 Actividades 🤸‍♂️</legend>
+                <br>
+                <label>Por favor, indicá cuáles actividades te interesan.</label>
+                <br><br>
+                <label for="palermo">Sede Palermo:</label>
+                <br><br>
+                <input type="checkbox" name="palermo" id="basquet_palermo"><label for="basquet_palermo">Básquet</label>
+                <input type="checkbox" name="palermo" id="boxeo_palermo"><label for="boxeo_palermo">Boxeo</label>
+                <input type="checkbox" name="palermo" id="futbol_palermo"><label for="futbol_palermo">Fútbol</label>
+                <input type="checkbox" name="palermo" id="tenis_palermo"><label for="tenis_palermo">Tenis</label>
+                <br><br>
+                <label for="rosario">Sede Rosario:</label>
+                <br><br>
+                <input type="checkbox" name="rosario" id="basquet_rosario"><label for="basquet_rosario">Básquet</label>
+                <input type="checkbox" name="rosario" id="futbol_rosario"><label for="futbol_rosario">Fútbol</label>
+                <input type="checkbox" name="rosario" id="rugby_rosario"><label for="rugby_rosario">Rugby</label>
+                <input type="checkbox" name="rosario" id="voley_rosario"><label for="voley_rosario">Voley</label>
+            </fieldset>
+            <input type="checkbox" name="condiciones" id="condiciones" required><label for="condiciones">Acepto las
+                condiciones*</label>
+            <br>
+            <input type="checkbox" name="novedades" id="novedades" checked><label for="novedades">Deseo recibir
+                novedades</label>
+            <br><br>
+            <label id="obligatorio">*: campo obligatorio.</label>
+            <br><br>
+            <div>
+                <input type="submit" value="Iniciar afiliación">
+                <input type="reset" value="Restablecer">
+            </div>
+        </form>
+    </main>
+
+<footer style="border-top: 3px solid white; padding: 2em;">
+    <h2 style="text-align: start; float: left;">Punto Bonus:</h2>
+    <p style="text-align: start; float: left; clear: both;">Lo que esta por debajo de la línea blanca no fue tomado en
+        cuenta para el diseño, solo son los puntos extras.</p>
+    <button id="randomButton"
+        style="padding: 0.5em 1em; font-size: 1.2em; background-color: white; color: black; border: 1px solid black; float: left;">Random</button>
+    <select name="style" id="style"
+        style="padding: 0.5em 1em; font-size: 1.2em; background-color: white; color: black; border: 1px solid black; width: 150px; margin-left: 10px; float: left;">
+        <option value="" disabled selected>- Seleccionar -</option>
+        <option value="01">Estilo EducationIT</option>
+        <option value="02">Estilo Retro</option>
+        <option value="03">Estilo Futuro</option>
+        <option value="04">Sin estilo</option>
+    </select>
+</footer>
+
+
+
+
+
+
+
+
+
+    <script src="./app.js"></script>
+</body>
+
+</html>

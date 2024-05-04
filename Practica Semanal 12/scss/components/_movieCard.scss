@@ -1,0 +1,9 @@
+.movieCard {
+    padding: var(--global-spacing);
+    p {
+        padding: .5rem;
+    }
+    hr {
+        border-color: var(--color-main-lighter);
+    }
+}

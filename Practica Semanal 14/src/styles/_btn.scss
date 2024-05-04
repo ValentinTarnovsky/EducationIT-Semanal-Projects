@@ -1,0 +1,23 @@
+.btn {
+    cursor: pointer;
+    transition: all 0.3s ease;
+    color: #cacaca;
+    :hover {
+        transform: scale(1.05);
+    }
+    &-delete:hover {
+        color: #dc3545;
+    }
+    &-edit:hover {
+        color: rgb(25, 255, 94);
+    }
+    &-fav:hover {
+        color: rgb(255, 171, 16);
+    }
+    &-yellow {
+        color: rgb(255, 171, 16);
+    }
+    &-green {
+        color: rgb(25, 255, 94);
+    }
+}

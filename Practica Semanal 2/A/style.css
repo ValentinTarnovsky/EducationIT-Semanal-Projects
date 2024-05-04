@@ -1,0 +1,29 @@
+body {
+    background-color: rgb(28, 52, 187);
+    box-sizing: border-box;
+}
+
+h1 {
+    background-color: white;
+    padding: 5px;
+    font-family: Impact, Charcoal, sans-serif;
+    font-size: 3rem;
+    text-align: center;
+    color: rgb(28, 52, 187);
+}
+
+p {
+    color: rgb(230, 230, 230);
+    font-family: Arial, Gadget, sans-serif;
+}
+
+h2 {
+    font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
+    font-style: italic;
+    font-size: 2em;
+    color: rgb(219, 0, 18);
+}
+img {
+    margin-left: 40px;
+    border: outset 5px rgb(48, 48, 48);
+}

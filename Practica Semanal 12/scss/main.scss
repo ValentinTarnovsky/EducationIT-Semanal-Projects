@@ -1,0 +1,14 @@
+@import "abstracts/variables";
+
+@import "base/reset";
+
+@import "components/active";
+@import "components/movieCard";
+
+@import "layout/body";
+@import "layout/footer";
+@import "layout/header";
+@import "layout/main";
+
+// Dejar al final
+// @import "abstracts/breakpoints";

@@ -1,0 +1,11 @@
+.navbar {
+    padding: 1rem 0;
+    text-align: center;
+    border-bottom: 3px solid var(--main-color);
+
+    h1,
+    span {
+        font-size: 2rem;
+        text-shadow: 1px 1px 5px var(--shadow-color);
+    }
+}

@@ -1,0 +1,24 @@
+// Font Import
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&display=swap");
+
+// Variables
+:root {
+    --global-padding: 2rem;
+    --global-spacing: 1rem;
+
+    // Colors
+    --color-bg: #070f2b;
+    --color-main: #1b1a55;
+    --color-main-light: #535c91;
+    --color-main-lighter: #9290c3;
+    --white-color: #fff;
+
+    // Fonts & size
+    --body-font: "Montserrat", sans-serif;
+    --normal-font-size: 1rem;
+
+    // Font weight
+    --font-regular: 400;
+    --font-semi-bold: 600;
+    --font-bold: 800;
+}

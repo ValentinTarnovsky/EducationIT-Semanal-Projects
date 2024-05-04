@@ -1,0 +1,49 @@
+@use "./styles/variables";
+@use "./styles/reset";
+@use "./styles/btn";
+@use "./styles/scrollbar";
+
+#root {
+    background-color: var(--bg-color);
+    height: 100vh;
+
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 3.5rem auto 2rem;
+    grid-template-areas:
+        "header header header header header"
+        "aside main main main main"
+        "footer footer footer footer footer";
+}
+
+@media screen and (max-width: 1200px) {
+    #root {
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-areas:
+            "header header header header"
+            "aside main main main"
+            "footer footer footer footer";
+    }
+}
+
+@media screen and (max-width: 918px) {
+    #root {
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-areas:
+            "header header header"
+            "aside main main"
+            "footer footer footer";
+    }
+}
+
+@media screen and (max-width: 684px) {
+    #root {
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: 7% 40% 50% 3%;
+        grid-template-areas:
+            "header"
+            "aside"
+            "main"
+            "footer";
+    }
+}

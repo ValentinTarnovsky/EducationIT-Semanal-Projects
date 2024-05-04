@@ -1,0 +1,10 @@
+.header {
+    grid-area: header;
+    width: 100%;
+    margin-top: 1rem;
+    font-size: 1.75rem;
+    text-shadow: 2px 2px 3px lightslategrey;
+    @media screen and (max-width: 490px) {
+        font-size: 1.2rem;
+    }
+}

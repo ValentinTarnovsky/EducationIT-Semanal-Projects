@@ -1,0 +1,10 @@
+.logo {
+    img {
+        height: 4rem;
+        width: fit-content;
+    }
+
+    @media (max-width: 650px) {
+        display: none;
+    }
+}

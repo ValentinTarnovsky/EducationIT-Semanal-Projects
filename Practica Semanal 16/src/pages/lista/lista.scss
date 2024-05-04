@@ -1,0 +1,28 @@
+@use "../../styles/scss/variables" as var;
+
+.lista {
+    &__title,
+    .button {
+        margin-bottom: 0.5rem;
+    }
+    &__list {
+        display: flex;
+        flex-direction: column;
+        gap: 0.25rem;
+        &__items {
+            border: 1px solid var.$colorFontDisabled;
+            border-bottom: 1px solid var.$colorFontDisabled;
+            padding: 0.25rem;
+            display: flex;
+            flex-direction: column;
+            &__btns {
+                display: flex;
+                justify-content: star;
+                gap: 0.5rem;
+                .button-trash {
+                    background-color: red;
+                }
+            }
+        }
+    }
+}

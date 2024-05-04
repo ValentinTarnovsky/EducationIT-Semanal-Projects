@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Tp Semanal 10</title>
+</head>
+
+<body>
+    <header>
+        <h1>Calculadora con JavaScript!</h1>
+        <h2>TP Semanal N°10</h2>
+    </header>
+    <main>
+        <div class="calculator">
+            <div class="calculator__inputs">
+                <div class="calculator__inputs__response">
+                    <input type="text" name="response" id="output" value="0" readonly>
+                </div>
+                <div class="calculator__inputs__request">
+                    <input type="text" name="request" placeholder="0" id="input1">
+                    <input type="text" name="request" placeholder="0" id="input2">
+                </div>
+            </div>
+            <div class="calculator__buttons">
+                <button class="sumar" id="btn-sumar">+</button>
+                <button class="restar" id="btn-restar">-</button>
+                <button class="multiplicar" id="btn-multiplicar">*</button>
+                <button class="dividir" id="btn-dividir">/</button>
+                <button class="reset" id="btn-reset">C</button>
+                <span id="error">error</span>
+            </div>
+        </div>
+    </main>
+    <script src="app.js"></script>
+</body>
+
+</html>

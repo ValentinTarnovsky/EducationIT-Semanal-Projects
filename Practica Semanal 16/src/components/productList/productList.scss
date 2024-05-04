@@ -1,0 +1,5 @@
+@use "../../styles/scss/variables" as var;
+
+.MuiModal-backdrop {
+    background-color: rgba(25, 25, 25, 0.1) !important;
+}

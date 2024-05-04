@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: var(--body-font);
+    font-size: var(--normal-font-size);
+    background-color: var(--color-bg);
+    color: var(--white-color);
+}
+
+ul {
+    list-style: none;
+}
+
+a:visited,
+a:link {
+    text-decoration: none;
+    color: var(--white-color);
+}

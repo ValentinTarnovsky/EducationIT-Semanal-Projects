@@ -1,0 +1,9 @@
+.footer {
+    grid-area: footer;
+    margin: 0 var(--global-padding);
+    padding: var(--global-padding);
+    border-top: 1px solid var(--border-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

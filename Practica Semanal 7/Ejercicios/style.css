@@ -1,0 +1,16 @@
+h2 {
+    background-color: rgb(255, 132, 88);
+    margin-left: 0.7em;
+    padding: 0.5em;
+    border-radius: 15px;
+    border: solid 3px black;
+    text-align: center;
+}
+
+dl {
+    background-color: beige;
+    margin-left: 1em;
+    padding: 0.5em;
+    border-radius: 15px;
+    border: solid 3px black;
+}

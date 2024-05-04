@@ -1,0 +1,60 @@
+@use "../../../styles/scss/variables" as var;
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 100%;
+    padding: 0.25rem 0.75rem 0 0.75rem;
+    background-color: var.$colorBackgroundDark;
+    box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.75);
+
+    &__drawer-icon {
+        svg {
+            fill: var.$colorBackgroundLight;
+        }
+    }
+
+    &__items {
+        a {
+            color: var.$colorFontDarker;
+        }
+
+        .active {
+            color: var.$colorFontLight;
+            text-shadow: 0.125rem 0.125rem 0.5rem var.$colorBorderDarker;
+
+        }
+    }
+
+    &__shopping-cart {
+        &__icon-badge {
+            svg {
+                font-size: var.$fontSizeXL;
+                fill: var.$colorBackgroundLight;
+            }
+
+            span {
+                color: var.$colorBackgroundLight;
+                background-color: var.$colorBackgroundDarker;
+            }
+        }
+    }
+
+    @media (max-width: 650px) {
+        &__items {
+            display: none;
+        }
+    }
+
+    @media (min-width: 651px) {
+        &__drawer-icon {
+            display: none;
+        }
+    }
+}
+
+.active {
+    background-color: var.$colorBackgroundLight;
+}

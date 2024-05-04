@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@700&display=swap");
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Orbitron, Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+    outline: none;
+}
+
+header {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    padding-top: 1rem;
+    color: white;
+    text-shadow: 1px 1px 5px hsl(220, 100%, 97%);;
+}
+
+main {
+    height: 100vh;
+    width: 100vw;
+    background-color: hsl(220, 24%, 12%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calculator {
+    width: 20rem;
+    height: auto;
+    background-color: hsl(220, 20%, 18%);
+    border-radius: 0.5rem;
+    border: 1px solid hsl(240, 9%, 13%);
+    box-shadow: 2px 2px 6px hsl(220, 24%, 15%);
+    padding: 1rem;
+    transition: transform 0.3s ease;
+}
+.calculator:hover {
+    transform: scale(1.02);
+}
+
+input {
+    padding: 0.5rem;
+    width: 100%;
+}
+.calculator__inputs__response input {
+    text-align: right;
+}
+
+.calculator__inputs__request {
+    display: flex;
+}
+
+.calculator__buttons {
+    margin-top: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.calculator__buttons button {
+    cursor: pointer;
+    font-size: 3rem;
+    width: 50%;
+    height: 5rem;
+}
+
+.calculator__buttons button:last-of-type {
+    width: 100%;
+}
+
+span {
+    margin-top: 1rem;
+    width: 100%;
+    text-align: center;
+    color: red;
+    font-size: 0.8rem;
+    opacity: 0;
+    transition: opacity .3s ease;
+}

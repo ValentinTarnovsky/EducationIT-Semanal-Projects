@@ -1,0 +1,9 @@
+footer {
+    padding: var(--global-padding);
+    border-top: 2px solid var(--color-main);
+
+    .footer {
+        display: flex;
+        justify-content: start;
+    }
+}

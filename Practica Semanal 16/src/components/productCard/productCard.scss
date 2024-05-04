@@ -1,0 +1,52 @@
+@use "../../styles/scss/variables" as var;
+
+$_width: 100%;
+
+.product-card {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: max-content auto max-content;
+    gap: 1vw;
+
+    width: $_width;
+    padding: 0.5vw;
+
+    &__image {
+        width: $_width;
+        border-radius: 0.5rem / 0.5rem;
+    }
+
+    &__content {
+        display: flex;
+        flex-direction: column;
+        gap: 0.75vw;
+
+        width: $_width;
+        padding: 0 !important;
+
+        h4 {
+            font-size: var.$fontSizeMD;
+        }
+
+        p {
+            font-size: var.$fontSizeSM;
+            text-align: justify;
+
+            span {
+                font-weight: bold;
+            }
+        }
+
+        :last-child {
+            margin-top: auto;
+        }
+
+
+    }
+
+    &__actions {
+        display: flex;
+        justify-content: center;
+        width: $_width;
+    }
+}

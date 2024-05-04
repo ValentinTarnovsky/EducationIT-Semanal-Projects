@@ -1,0 +1,32 @@
+body {
+    background-color: beige;
+    font-family: Verdana, Arial, sans-serif;
+    box-sizing: border-box;
+}
+img {
+    width: 100%;
+}
+
+h1 {
+    color: #693602;
+}
+h3 {
+    background-color: #693602;
+    color: beige;
+    padding: 2px;
+}
+li {
+    color: #693602;
+}
+
+nav, a {
+    font-weight: bold;
+    color: #FF8C00;
+}
+
+.lanacion a {
+    color: blue;
+}
+.pagina12 a {
+    color: red;
+}

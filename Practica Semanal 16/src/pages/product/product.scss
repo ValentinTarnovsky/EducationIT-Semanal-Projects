@@ -1,0 +1,33 @@
+@use "../../styles/scss/variables" as var;
+
+.product {
+    display: flex;
+    justify-content: center;
+
+    width: var.$widthContent;
+
+    &__section {
+        padding: 1rem 0;
+
+        h3 {
+            margin-bottom: 0.5rem;
+        }
+
+        &__form {
+            display: flex;
+            flex-direction: column;
+            gap: 1.5vh;
+
+            width: 556px;
+        }
+    }
+
+
+    @media (max-width: 650px) {
+        &__section {
+            &__form {
+                width: 100%;
+            }
+        }
+    }
+}

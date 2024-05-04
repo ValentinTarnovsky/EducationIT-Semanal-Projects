@@ -1,0 +1,11 @@
+.header {
+    grid-area: header;
+    padding: var(--global-padding);
+    border-bottom: 1px solid var(--border-color);
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    &__title {
+        padding: 0 2rem;
+    }
+}

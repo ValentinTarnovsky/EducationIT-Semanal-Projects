@@ -1,0 +1,84 @@
+.main {
+    grid-area: main;
+    padding: 0 var(--global-padding);
+    border-left: 1px solid var(--border-color);
+    width: 100%;
+    height: calc(100vh - 5.5rem);
+    text-wrap: wrap;
+    word-wrap: break-word;
+    overflow: auto;
+    &__container {
+        &__title {
+            font-size: 2.2rem;
+            &:empty::after {
+                content: "NO HAY NOTAS ABIERTAS";
+                color: var(--border-color);
+            }
+            &:not(:empty) {
+                width: 78.5%;
+                overflow: hidden;
+                white-space: nowrap;
+                text-overflow: ellipsis;
+                position: fixed;
+                border-bottom: 1px solid var(--border-color);
+                background-color: var(--bg-color);
+            }
+        }
+        &__content {
+            padding-top: 3rem;
+            font-size: 1.5rem;
+        }
+    }
+    &__form {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        &__input {
+            font-size: 2rem;
+            font-weight: var(--font-w-bold);
+            padding: calc(var(--global-padding) / 2);
+            outline: none;
+        }
+        &__textarea {
+            font-size: 1.3rem;
+            font-weight: var(--font-w-normal);
+            padding: calc(var(--global-padding) / 2);
+            resize: none;
+            height: max-content;
+            outline: none;
+            height: 100%;
+        }
+        &__btn {
+            margin-bottom: var(--global-padding);
+            background-color: #00bcd4;
+            color: white;
+            border: 1px solid rgb(105, 105, 105);
+            border-radius: 4px;
+            padding: 10px;
+            font-size: 1rem;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            &:hover {
+                background-color: #0097a7;
+            }
+        }
+    }
+}
+@media screen and (max-width: 684px) {
+    .main {
+        height: 100%;
+        border-top: 1px solid var(--border-color);
+        &__container {
+            &__title {
+                &:not(:empty) {
+                    position: inherit;
+                    width: 100%;
+                }
+            }
+            &__content {
+                padding-top: var(--global-padding);
+            }
+        }
+    }
+}

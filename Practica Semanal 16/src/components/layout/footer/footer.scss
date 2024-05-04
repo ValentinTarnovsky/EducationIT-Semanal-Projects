@@ -1,0 +1,84 @@
+@use "../../../styles/scss/variables" as var;
+
+.footer {
+    grid-area: footer;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    width: 100%;
+    padding: 1rem 0;
+    background-color: var.$colorBackgroundDark;
+    box-shadow: 0 -0.125rem 0.75rem rgba(var.$colorBackgroundDarker, 0.25);
+
+    &__groups {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+
+        width: var.$widthContent;
+        padding: 1rem;
+        border-top: 0.125rem solid var.$colorBorderLight;
+
+        &__title {
+            color: var.$colorFontLight;
+            font-size: var.$fontSizeMD;
+        }
+
+        &__list {
+            padding-top: 0.25rem;
+            font-size: var.$fontSizeSM;
+
+            &--explorer,
+            &--legal {
+                display: flex;
+                flex-direction: column;
+
+                a,
+                :active {
+                    color: var.$colorFontLight;
+                    background-color: transparent;
+                }
+            }
+
+            &--social-media {
+                display: flex;
+                gap: 0.75rem;
+
+                a svg {
+                    height: 1.65rem;
+                    width: 1.65rem;
+                    padding: 0.25rem;
+
+                    border: 0.0675rem solid var.$colorFontLight;
+                    border-radius: 100%;
+                    fill: var.$colorFontLight;
+
+                    &:hover {
+                        background-color: var.$colorBackgroundDarker;
+                    }
+                }
+            }
+        }
+    }
+
+    &__copyright {
+        display: flex;
+        justify-content: center;
+
+        width: var.$widthContent;
+        border-top: 0.125rem solid var.$colorBorderLight;
+
+        span {
+            color: var.$colorFontLight;
+            padding-top: 0.75rem;
+        }
+    }
+
+    @media (max-width: 650px) {
+        &__groups {
+            grid-template-columns: 1fr;
+            gap: 3vw;
+        }
+    }
+}

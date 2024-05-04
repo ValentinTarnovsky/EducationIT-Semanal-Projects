@@ -1,0 +1,49 @@
+.form {
+    padding: 1rem 0;
+    form {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-direction: column;
+        label,
+        input,
+        textarea {
+            width: 100%;
+        }
+        label {
+            margin-left: 0.5rem;
+            font-weight: var(--font-bold);
+        }
+        input {
+            height: 2rem;
+            margin-bottom: 0.5rem;
+            padding-left: 0.5rem;
+            font-size: 1.3rem;
+        }
+        textarea {
+            resize: none;
+            height: 4rem;
+            font-size: 1.3rem;
+            padding-left: 0.5rem;
+        }
+        h3 {
+            margin: 0.5rem 0;
+            text-decoration: underline;
+        }
+        span {
+            margin-top: 0.5rem;
+        }
+    }
+}
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.form-error {
+    color: red;
+    visibility: hidden;
+    font-weight: var(--font-bold);
+    border-bottom: 2px solid red;
+}
